@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="">
+        <div>
+            <label for="fName">First Name: *</label>
+            <input type="text" name="fName" id="fName">
+        </div>
+        <div>
+            <label for="lName">Last Name: *</label>
+            <input type="text" name="lName" id="lName">
+        </div>
+        <div>
+            <label for="email">Email Address: *</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="pWord">Password: *</label>
+            <input type="password" name="pWord" id="pWord">
+        </div>
+        <div>
+            <label for="cPWord">Confirm Password: *</label>
+            <input type="password" name="cPWord" id="cPWord">
+        </div> 
+        <div> 
+            <label for="bDay">Birthday: *</label>
+            <input type="date" name="bDay" id="bDay"> <!--why does it not show the calender on the browser -->
+        </div>          
+        <div>
+            <p>Gender Identity</p>
+            <input type="radio" name="gID" id="maleID" value="Male">
+            <label for="maleID">Male</label>
+            <input type="radio" name="gID" id="femaleID" value="Female">
+            <label for="femaleID">Female</label>
+            <input type="radio" name="gID" id="binID" value="Non-Binary">
+            <label for="binID">Non-Binary</label>
+            <input type="radio" name="gID" id="noAnswerID" value="I prefer not to answer">
+            <label for="noAnswerID">I prefer not to answer</label>
+        </div>
+        <div>
+            <p>A short Description about myself</p>
+            <input type="text" name="aboutSelf" id="aboutSelf">
+        </div>
+        <div>
+            <label for="select">Favorite Language</label>
+            <select name="select" id="select">
+                <option value="">JavaScript</option>
+                <option value="">CSS</option>
+                <option value="">HTML</option>
+            </select>
+            
+        </div>
+        <div>
+            <input type="checkbox" name="checkBox" id="checkBox">
+            <label for="">Yes,I would like to receive periodic email updates</label>
+        </div>
+        
+        <div>
+            <input type="submit" value="Create Account">
+        </div>
+        <p>*Indicates a required field</p>
+    </form>
+</body>
+</html>
+
+
+
